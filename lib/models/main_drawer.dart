@@ -16,7 +16,9 @@ class MainDrawer extends StatelessWidget {
             fontSize: 24,
             fontWeight: FontWeight.bold),
       ),
-      onTap: tapHandler,
+      onTap: () {
+        tapHandler;
+      },
     );
   }
 
